@@ -14,7 +14,7 @@ header img{
     margin-top: 12px;
 }
 .container{
-    width: 1200px;
+    width: 100%;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0px auto;
@@ -22,10 +22,23 @@ header img{
 #planos{
     padding: 80px 0px;
 }
+/*seletor de pseudo elemento*/
+#planos::after{
+    content: "";
+    display: block;
+    clear: both;
+}
 article{
     padding: 10px;
     border: 1px solid    #95a4a5;
-    width: 370px;
+}
+/*usando media querie para determinada situação chama o seletor e executa css*/
+@media (min-width: 695px){
+    article{
+        width: 30%;
+        float: left;
+        margin-right: 5%;
+    }
 }
 article > h2{
     background-color: #95a4a5;
@@ -52,4 +65,15 @@ article > ul > li{
 }
 article > footer{
     text-align: center;
+}
+.botao{
+    display: inline-block;
+    background-color: #127d00;
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+/*seletor de pseudo classe*/
+.botao:hover, .botao:focus{
+    background-color: #0e6400;
 }
