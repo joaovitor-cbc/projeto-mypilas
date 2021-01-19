@@ -159,11 +159,25 @@
 }
 
 .depoimento .depoimento__citacao{
+    position: relative;
+
     margin: 0px;
     padding: 0px 60px;
 
     text-align: center;
     font-size: 1em;
+}
+
+.depoimento .depoimento__citacao::before{
+    position: absolute;
+    top: -0.35em;
+    left: 0px;
+
+    color: #cccccc;
+
+    font-size: 8em;
+
+    content: "\201C";
 }
 
 .depoimento__autor{
