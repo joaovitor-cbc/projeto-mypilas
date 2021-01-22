@@ -46,9 +46,7 @@
   $ git clone https://github.com/joaovitor-cbc/projeto-mypilas.git
 ```
 
-```bash
-Você pode pegar todos os arquivos deste site e executá-los apenas no seu computador como se estivessem online, apenas na sua máquina.
-```
+<p>Você pode pegar todos os arquivos deste site e executá-los apenas no seu computador como se estivessem online, apenas na sua máquina.</a>
 
 <h2>📝 Licença</h2>
 <p> Este projeto está sob a licença do MIT. Veja o arquivo<a href="https://github.com/joaovitor-cbc/projeto-mypilas/blob/main/LICENSE"> LICENCE </a>para maiores detalhes.</p>
