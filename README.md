@@ -2,7 +2,7 @@
   <img 
     src="imagens/logo.png"
   />
-  <p style="margin:20px">Projeto MyPilas</p>
+  <p style="margin:20px" >Projeto MyPilas</p>
 </h2>
 
 <h1>
@@ -51,7 +51,7 @@
 <h2>📝 Licença</h2>
 <p> Este projeto está sob a licença do MIT. Veja o arquivo<a href="https://github.com/joaovitor-cbc/projeto-mypilas/blob/main/LICENSE"> LICENCE </a>para maiores detalhes.</p>
 
-<p align="center">Feito por<a href="www.linkedin.com/in/joão-vitor-araujo"> João Vitor</a></p>
+<p align="center">Feito por<a href="https://www.linkedin.com/in/joão-vitor-araujo"> João Vitor</a></p>
 
 
 
