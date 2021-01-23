@@ -97,6 +97,7 @@
 }
 
 .botao--principal {
+    text-align: center;
     border-radius: 10px;
     background-color: #004b86;
 }
@@ -322,4 +323,94 @@
     border-radius: 5px;
     background-color: #fff;
     font-size: 1.4rem;
+}
+
+.campo--maior {
+    height: 220px;
+}
+
+
+/*--------------------*\
+    CONTATO
+  \*--------------------*/
+
+.chamada-contato {
+    font-size: 1.6rem;
+    /* 1.6 * 10px = 16px */
+    text-align: center;
+}
+
+.chamada-contato__titulo {
+    margin: 0;
+    color: #fff;
+    font-size: 3.375em;
+    /* 54px / 16px = 3.375 */
+    line-height: 0.9;
+    text-shadow: 1px 1px #313131;
+}
+
+.chamada-contato__subtitulo {
+    margin: 20px 0;
+    color: #fff;
+    font-size: 1em;
+}
+
+@media(min-width: 576px) {
+    .chamada-contato {
+        padding-left: 20%;
+        padding-right: 20%;
+        font-size: 2.2rem;
+        /* 2.2 * 10px = 22px */
+    }
+}
+
+
+/*--------------------*\
+    INFORMAÇOES
+  \*--------------------*/
+
+.informacoes {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    font-size: 1.6rem;
+    text-align: left;
+}
+
+.informacoes__titulo {
+    margin: 0px;
+    margin-bottom: 5px;
+    color: #ffffff;
+    font-size: 2.1875em;
+    /* 54px / 16px = 3.375 */
+    line-height: 0.9;
+}
+
+.informacoes__subtitulos {
+    margin: 0px;
+    color: #ffffff;
+    font-size: 1em;
+}
+
+.Informacoes__email {
+    margin: 0px;
+    color: #ffffff;
+    font-size: 1em;
+}
+
+.informacoes__telefone {
+    margin: 0px;
+    color: #ffffff;
+    font-size: 1em;
+}
+
+@media(min-width: 576px) {
+    .informacoes {
+        padding-right: 20%;
+        font-size: 1.4rem;
+        /* 2.2 * 10px = 22px */
+    }
+    .informacoes__subtitulos {
+        padding-right: 65%;
+    }
 }
