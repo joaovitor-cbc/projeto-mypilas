@@ -60,3 +60,21 @@
     padding: 40px 0;
     color: #808080;
 }
+
+.layout-como-funciona {
+    padding: 80px 0;
+    margin-top: 0px;
+    background-color: #808080;
+}
+
+.layout-discricao {
+    padding: 80px 0;
+    margin-top: 0px;
+    background-color: #e7e7e7;
+}
+
+.layout-duvidas {
+    padding: 40px 0;
+    margin-top: 0px;
+    background-color: #484848;
+}

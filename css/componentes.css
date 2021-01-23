@@ -414,3 +414,85 @@
         padding-right: 65%;
     }
 }
+
+
+/*--------------------*\
+    COMO-FUNCIONA
+  \*--------------------*/
+
+.como-funciona {
+    margin: 0px 0px;
+    font-size: 1.6rem;
+    /* 1.6 * 10px = 16px */
+    text-align: left;
+}
+
+.como-funciona__titulo {
+    margin: 0px;
+    color: #ffffff;
+    font-size: 3.375em;
+    /* 54px / 16px = 3.375 */
+    line-height: 0.9;
+    text-shadow: 1px 1px #313131;
+}
+
+@media(min-width: 576px) {
+    .como-funciona {
+        padding-right: 20%;
+        font-size: 1.4rem;
+        /* 2.2 * 10px = 22px */
+    }
+    .como-funciona__titulo {
+        padding-right: 20%;
+    }
+}
+
+
+/*--------------------*\
+    COMO-FUNCIONA
+  \*--------------------*/
+
+.discricao {}
+
+.discricao__texto {
+    margin: 0px 0px;
+    font-size: 1.6rem;
+    /* 1.4 * 10px = 14px */
+    text-align: left;
+    color: #000000;
+}
+
+@media(min-width: 576px) {
+    .discricao__texto {
+        padding-right: 20%;
+        font-size: 2.2rem;
+        /* 2.2 * 10px = 22px */
+        padding-right: 20%;
+    }
+}
+
+
+/*--------------------*\
+         DUVIDAS
+  \*--------------------*/
+
+.duvidas {
+    text-align: center;
+}
+
+.duvidas__titulo {
+    margin: 0px 0px;
+    font-size: 1.6rem;
+    line-height: 0.9;
+    text-shadow: 1px 1px #313131;
+    color: #ffffff;
+}
+
+.duvidas__subtitulo {
+    margin: 0px;
+    margin-top: 10px;
+    color: #ffffff;
+    font-size: 1em;
+    line-height: 0.9;
+    text-shadow: 1px 1px #313131;
+}
