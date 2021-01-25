@@ -406,12 +406,25 @@
 
 @media(min-width: 576px) {
     .informacoes {
-        padding-right: 20%;
+        padding-right: 60%;
         font-size: 1.4rem;
         /* 2.2 * 10px = 22px */
     }
-    .informacoes__subtitulos {
-        padding-right: 65%;
+}
+
+@media(min-width: 540px) {
+    .informacoes {
+        padding-right: 60%;
+        font-size: 1.4rem;
+        /* 2.2 * 10px = 22px */
+    }
+}
+
+@media(max-width: 414px) {
+    .informacoes {
+        padding-right: 30%;
+        font-size: 1.4rem;
+        /* 2.2 * 10px = 22px */
     }
 }
 
