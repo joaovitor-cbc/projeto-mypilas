@@ -308,6 +308,9 @@
     display: block;
     font-weight: bold;
 }
+.grupo-entrada--areatexto{
+    width: 100%;
+}
 
 
 /*--------------------*\
