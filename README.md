@@ -20,6 +20,10 @@
 <h2>🧾 Sobre</h2>
 <p> Projeto simples de estudo sobre Web Design Responsivo com HTML5, CSS3 e BEM, e a implementação de um formulário, futuramente será integrada a uma api.</p>
 
+
+<h3>Projeto no Vercel</h3>
+<a href="https://projeto-mypilas.vercel.app/">Mypilas</a>
+
 <h2>🔧 Ferramentas</h2>
 <ul>
     <li>
